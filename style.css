@@ -1,0 +1,169 @@
+@font-face {
+    font-family: Arial;
+    src: url(./assets/fonts/Arial.ttf);
+}
+@font-face {
+    font-family: Georgia;
+    src: url(./assets/fonts/Georgia.ttf);
+}
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+* {
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.keyboardcontainer {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    padding-top: 10px;
+}
+.title {
+    font-size: 32px;
+}
+.hidden {
+    display: none;
+}
+.bodykeyboard {
+    width: 704px;
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 0;
+    padding-bottom: 0;
+    background: #888888;
+    border: 3px solid #222222;
+    border-radius: 5px;
+}
+.linekeyboard {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 8px;
+}
+.keyboardkey {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
+.textarea {
+    display: block;
+    width: 700px;
+    height: 200px;
+    margin: 10px auto 10px;
+    padding: 10px;
+    font-size: 18px;
+    color: #444444;
+}
+.Backquote.action {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.keyboardkey:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Backspace {
+    width: 89px;
+    background-color: #222222;
+}
+div.keyboardkey.Backspace:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.CapsLock:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.ShiftLeft:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.ShiftRight:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Enter:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Tab:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Delete:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Space:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.CtrlLeft:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.Win:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.AltLeft:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.CtrlRight:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.AltRight:hover {
+    background: #9d5ac4;
+}
+div.keyboardkey.CapsLock {
+    width: 100px;
+    background-color: #222222;
+}
+div.keyboardkey.ShiftLeft {
+    width: 86px;
+    background-color: #222222;
+}
+div.keyboardkey.ShiftRight {
+    width: 86px;
+    background-color: #222222;
+}
+div.keyboardkey.Enter {
+    width: 74px;
+    background-color: #222222;
+}
+div.keyboardkey.Tab {
+    width: 50px;
+    background-color: #222222;
+}
+div.keyboardkey.Delete {
+    width: 33px;
+    background-color: #222222;
+}
+div.keyboardkey.Space {
+    width: 316px;
+    background-color: #222222;
+}
+div.keyboardkey.CtrlLeft {
+    width: 40px;
+    background-color: #222222;
+}
+div.keyboardkey.Win {
+    width: 40px;
+    background-color: #222222;
+}
+div.keyboardkey.AltLeft {
+    width: 40px;
+    background-color: #222222;
+}
+div.keyboardkey.AltRight {
+    width: 40px;
+    background-color: #222222;
+}
+div.keyboardkey.CtrlRight {
+    width: 40px;
+    background-color: #222222;
+}
