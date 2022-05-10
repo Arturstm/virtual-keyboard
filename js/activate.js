@@ -1,4 +1,7 @@
 const textarea = document.querySelector("textarea");
+const ShiftL = document.querySelector('.ShiftLeft');
+const CapsL = document.querySelector('.CapsLock');
+const backspa = document.querySelector('.Backspace');
 let shiftOn = false
 let capsOn = false
 let currentLanguage = false
@@ -26,7 +29,10 @@ textarea.value += `${value}`
 document.querySelectorAll(".keyboardkey").forEach(item => 
         item.addEventListener("click", handleClick))
 
-
+function Delete() {
+        textarea.value = textarea.value.substring(0, textarea.value.length - 1)
+}
+backspa.addEventListener('click', Delete);
 
 
 document.addEventListener('keydown', function(event) {
@@ -46,6 +52,14 @@ else if (event.code === "CapsLock" && capsOn === true) {
         capsOn = false;
 }
 });
+CapsL.addEventListener('click', function(e) {
+        if (e.target.classList.contains("CapsLock") && capsOn === false) {
+                capsOn = true;
+}
+else if (e.target.classList.contains("CapsLock") && capsOn === true) {
+        capsOn = false;
+}
+});
 document.addEventListener('keydown', function(event) {
         if (event.code == 'ShiftLeft') {
                 shiftOn = true;
@@ -54,6 +68,13 @@ document.addEventListener('keydown', function(event) {
 document.addEventListener('keyup', function(event) {
         if (event.code == 'ShiftLeft') {
                 shiftOn = false;
+}
+});
+ShiftL.addEventListener('click', function(e) {
+        if (e.target.classList.contains("ShiftLeft") && shiftOn === false) {
+                shiftOn = true;
+} else if (e.target.classList.contains("ShiftLeft") && shiftOn === true) {
+        shiftOn = false;
 }
 });
 
