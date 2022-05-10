@@ -60,6 +60,21 @@
     user-select: none;
     transition: border-radius 0.3s, background-color 0.3s;
 }
+.keyboardkeymore {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-left: 6px;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+    color: #ffffff;
+    background: #444444;
+    border-radius: 3px;
+    cursor: pointer;
+    user-select: none;
+    transition: border-radius 0.3s, background-color 0.3s;
+}
 .textarea {
     display: block;
     width: 700px;
@@ -69,77 +84,73 @@
     font-size: 18px;
     color: #444444;
 }
-.Backquote.action {
-    border-radius: 40px;
-    background: #c587e9;
-}
 .keyboardkey:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.Backspace {
+div.keyboardkeymore.Backspace {
     width: 89px;
     background-color: #222222;
 }
-div.keyboardkey.Backspace:hover {
+div.keyboardkeymore.Backspace:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.CapsLock:hover {
+div.keyboardkeymore.CapsLock:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.ShiftLeft:hover {
+div.keyboardkeymore.ShiftLeft:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.ShiftRight:hover {
+div.keyboardkeymore.ShiftRight:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.Enter:hover {
+div.keyboardkeymore.Enter:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.Tab:hover {
+div.keyboardkeymore.Tab:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.Delete:hover {
+div.keyboardkeymore.Delete:hover {
     background: #9d5ac4;
 }
 div.keyboardkey.Space:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.CtrlLeft:hover {
+div.keyboardkeymore.CtrlLeft:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.Win:hover {
+div.keyboardkeymore.Win:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.AltLeft:hover {
+div.keyboardkeymore.AltLeft:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.CtrlRight:hover {
+div.keyboardkeymore.CtrlRight:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.AltRight:hover {
+div.keyboardkeymore.AltRight:hover {
     background: #9d5ac4;
 }
-div.keyboardkey.CapsLock {
+div.keyboardkeymore.CapsLock {
     width: 100px;
     background-color: #222222;
 }
-div.keyboardkey.ShiftLeft {
+div.keyboardkeymore.ShiftLeft {
     width: 86px;
     background-color: #222222;
 }
-div.keyboardkey.ShiftRight {
+div.keyboardkeymore.ShiftRight {
     width: 86px;
     background-color: #222222;
 }
-div.keyboardkey.Enter {
+div.keyboardkeymore.Enter {
     width: 74px;
     background-color: #222222;
 }
-div.keyboardkey.Tab {
+div.keyboardkeymore.Tab {
     width: 50px;
     background-color: #222222;
 }
-div.keyboardkey.Delete {
+div.keyboardkeymore.Delete {
     width: 33px;
     background-color: #222222;
 }
@@ -147,23 +158,279 @@ div.keyboardkey.Space {
     width: 316px;
     background-color: #222222;
 }
-div.keyboardkey.CtrlLeft {
+div.keyboardkeymore.CtrlLeft {
     width: 40px;
     background-color: #222222;
 }
-div.keyboardkey.Win {
+div.keyboardkeymore.Win {
     width: 40px;
     background-color: #222222;
 }
-div.keyboardkey.AltLeft {
+div.keyboardkeymore.AltLeft {
     width: 40px;
     background-color: #222222;
 }
-div.keyboardkey.AltRight {
+div.keyboardkeymore.AltRight {
     width: 40px;
     background-color: #222222;
 }
-div.keyboardkey.CtrlRight {
+div.keyboardkeymore.CtrlRight {
     width: 40px;
     background-color: #222222;
+}
+.Backquote.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit1.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit2.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit3.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit4.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit5.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit6.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit7.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit8.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit9.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digit0.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digitminus.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Digitplus.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Backspace.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Tab.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyQ.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyW.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyE.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyR.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyT.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyY.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyU.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyI.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyO.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyP.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.BracketLeft.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.BracketRight.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Backslash.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Delete.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.CapsLock.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyA.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyS.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyD.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyF.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyG.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyH.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyJ.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyK.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyL.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Semicolon.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Quote.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Enter.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ShiftLeft.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyZ.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyX.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyC.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyV.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyB.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyN.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.KeyM.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Comma.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Period.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Slash.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ArrowUp.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ShiftRight.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.CtrlLeft.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Win.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.AltLeft.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.Space.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.AltRight.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ArrowLeft.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ArrowDown.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.ArrowRight.active {
+    border-radius: 40px;
+    background: #c587e9;
+}
+.CtrlRight.active {
+    border-radius: 40px;
+    background: #c587e9;
 }
